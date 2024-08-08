@@ -1,0 +1,126 @@
+.signup{
+    background-color: white;
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up-page{
+    width:80%;
+    height:80vh;
+    border-radius: 10px;
+    box-shadow:1px 1px 6px 0px rgba(0, 0, 0, 0.5)
+}
+.input-type-box{
+    width:40%;
+    height:80vh;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-type-box>img{
+    width: 100%;
+    height: 75vh;
+}
+.right-side-form{
+    width:50%;
+    height:80vh;
+    position: relative;
+    top:0%;
+    left:50%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+
+}
+.right-side-form>h3{
+    padding-top: 2rem;
+    line-height: 30px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color:black;
+    text-align: center;
+    padding-bottom: 0.8rem;
+
+
+}
+input{
+    width:80%;
+    height:8vh;
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    margin-left: 3rem;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input-btn{
+    width:80%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    
+   }
+.btnBtn{
+    width:80%;
+    height:50px;
+    border:1px solid black;
+    background-color: white;
+    color:black;
+    margin: 0.4rem 0.4rem;
+    padding: 0.2rem 0.2rem;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    color: white;
+    background-color: #FF4F5A;
+    border-radius: 30px;
+    transition: all 0.5s ease-in;
+}
+.btnBtn:hover{
+    border: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+}
+.img-logo{
+  margin-top: 2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.img-logo>img{
+    width:70px;
+    height:70px;
+    border:2px solid white;
+    border-radius: 50%;
+
+}
+.linking{
+    text-align: center !important;
+    font-size: 1.3rem;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-top: 1rem;
+}
+.hide-show{
+    position: relative;
+    left:80%;
+    top:-14%;
+}
+
+.scrollbarhide {
+    overflow: auto;
+  }
+  
+  .scrollbarhide::-webkit-scrollbar {
+    display: none;
+  }

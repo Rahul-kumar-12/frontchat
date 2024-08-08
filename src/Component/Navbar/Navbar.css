@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+}
+nav{
+    background: white;
+    height:6rem;
+    width:100%;
+    box-shadow: 2px 2px 4px gray;
+    text-overflow: initial;
+}
+label.logo{
+    color:#061BB0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.robot-img{
+    width:100px;
+    height:100px;
+    margin-left: 3rem;
+    padding: 10px 10px;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 2.3rem;
+   
+    line-height: 3rem;
+}
+nav ul li{
+    display: inline-block;
+   
+}
+
+
+
+
+  
